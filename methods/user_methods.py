@@ -1,6 +1,6 @@
 import requests
 import allure
-from utils.data import BASE_URL, REGISTER_URL, LOGIN_URL, USER_URL
+from utils.config import BASE_URL, REGISTER_URL, LOGIN_URL, USER_URL
 from utils.helpers import generate_user_data
 
 class UserMethods:

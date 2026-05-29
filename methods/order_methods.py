@@ -1,6 +1,6 @@
 import requests
 import allure
-from utils.data import BASE_URL, ORDER_URL, GET_ORDERS
+from utils.config import BASE_URL, ORDER_URL, GET_ORDERS
 
 class OrderMethods:
     def __init__(self):
